@@ -1,0 +1,93 @@
+/* PROJECTS SECTION */
+#projects-section {
+    min-height: 91vh;
+    background: var(--color1);
+}
+#projects-section > p {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+    background: var(--color1);
+}
+
+.snap-scroll-container {
+    scroll-snap-type: y mandatory;
+  }
+.snap-scroll-container > * {
+    scroll-snap-align: center;
+}
+.projects-container {
+    position: relative;
+    display: grid;
+    grid-auto-flow: row;
+    overflow-y: scroll;
+    gap: 2%;
+
+    --container-width: 70vw;
+    --container-blur-width: 8vw;
+    --container-blur-color: var(--color1);
+    --card-width: 400px;
+    --card-height: 600px;
+
+    width: var(--card-height);
+    height: var(--container-width);
+
+    /* scuffed centering I will find god after this assignment */
+    margin-left: 8%;
+    margin-top: 8%;
+
+    transform-origin: 0px 0px;
+    rotate: -90deg;
+    translate: 0px var(--card-height);
+    margin-bottom: calc(-1 * var(--container-width) + var(--card-height));
+    padding-top: -50px;
+
+    overscroll-behavior: contain;
+    /* hide scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.projects-container::-webkit-scrollbar {
+    display: none;
+}
+
+.projects-container > .blur {
+    position: sticky;
+    top: -5px;
+    z-index: 1;
+}
+.projects-container > .blur > div {
+    width: var(--card-height);
+    height: calc(var(--container-width) + 10px);
+
+    background-image: 
+        linear-gradient(
+        var(--container-blur-color) 0%, 
+        transparent var(--container-blur-width) calc(var(--container-width) - var(--container-blur-width)), 
+        var(--container-blur-color) 100%); 
+    position: absolute;
+}
+
+.project-card {
+    width: var(--card-width);
+    height: var(--card-height);
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 2fr 1fr;
+
+    transform-origin: 0% 0%;
+    rotate: 90deg;
+    translate: var(--card-height) 0px;
+    margin-bottom: calc(-1 * (var(--card-height) - var(--card-width)));
+
+}
+.project-card > *:first-child {
+    background: var(--color2);
+    border-radius: 30px;
+    border: 10px solid var(--color3);
+}
+.project-card > p {
+    font-size: 1.3rem;
+    font-family: Arial;
+    margin: 0px;
+}

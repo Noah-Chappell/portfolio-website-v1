@@ -1,0 +1,79 @@
+.lighting-mode-container {
+    --container-width: 6rem;
+    --container-height: 3rem;
+    --container-padding: 0.2rem;
+    --dark-color: var(--color1);
+    --light-color:var(--color3);
+    --icon-dark: var(--color4);
+    --icon-light: var(--color0);
+
+    --current-background-color: var(--dark-color);
+    width: var(--container-width);
+    height: var(--container-height);
+    background: var(--current-background-color);
+    border-radius: var(--container-height);
+    border: calc(var(--container-height) * 0.16) solid black;
+    padding: 0 var(--container-padding);
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: 0.15s;
+    transition-timing-function: ease-in-out;
+
+    cursor: pointer;
+}
+.lighting-mode-container:hover {
+    scale: 1.05;
+}
+/* hiding data checkbox */
+#lighting-mode-switch {
+    appearance: none;
+    position: absolute;
+}
+.lighting-mode-container > div {
+    transition: 0.15s;
+    transition-timing-function: ease-in-out;
+}
+/* checked states */
+#lighting-mode-switch:checked + label > .lighting-mode-container {
+    --current-background-color: var(--light-color);
+}
+#lighting-mode-switch:checked + label > .lighting-mode-container > .divider {
+    left: var(--container-padding);
+}
+
+
+.dark-mode-icon {
+    width: calc(var(--container-height) * 0.66);
+    height: calc(var(--container-height) * 0.66);
+    background: var(--current-background-color);
+    border-radius: 50%;
+    box-shadow: calc(var(--container-height) * -0.2) calc(var(--container-height) * 0.13) var(--color4);
+
+    position: relative;
+    left: calc(var(--container-height) * 0.3);
+    bottom: calc(var(--container-height) * 0.16);;
+}
+.light-mode-icon {
+    width: calc(var(--container-height) * 0.53);
+    height: calc(var(--container-height) * 0.53);
+    background: var(--color0);
+    border-radius: 50%;
+    outline: calc(var(--container-height) * 0.13) dotted var(--color0);
+
+    position: relative;
+    right: calc(var(--container-height) * 0.13);
+}
+.divider {
+    width: calc(var(--container-height) * 0.9);
+    height: calc(var(--container-height) * 0.9);;
+    background: var(--color4);
+    border-radius: 50%;
+
+    position: absolute;
+    left: calc(var(--container-width) - var(--container-height) * 0.9 + var(--container-padding));
+}
+

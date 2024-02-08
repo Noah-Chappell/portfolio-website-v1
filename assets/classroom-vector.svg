@@ -1,0 +1,100 @@
+<svg width="462" height="767" viewBox="0 0 462 767" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    #classroom {
+        --door-xscale: 1;
+    }
+    #classroom:hover {
+        --door-xscale: 1.05;
+    }
+    #classroom:active {
+        --door-xscale: 6.66;
+    }
+    #door {
+        scale: var(--door-xscale) 1;
+        animation: door-open ease-in-out 1s forwards;
+        transition: ease-in-out 0.3s;
+    }
+    @keyframes door-open {
+        to {
+            transform: scaleX(15%);
+        }
+    }
+
+    #hand {
+        transform-box: fill-box;
+        transform-origin: 0px 50%;
+        animation: hand-shake ease-in-out 1s infinite alternate;
+    }
+    @keyframes hand-shake {
+        50% {
+            rotate: 20deg;
+            translate: 3px 0px;
+        }
+        100% {
+            rotate: -20deg;
+        }
+    }
+
+    #head {
+        transform-box: fill-box;
+            animation: head-shake ease-in-out 0.5s infinite alternate;
+        }
+        @keyframes head-shake {
+        to {
+            transform: scaleX(95%)
+        }
+    }
+
+</style>
+<g id="classroom" clip-path="url(#clip0_40_2)">
+<mask id="mask0_40_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="462" height="767">
+<rect id="Rectangle 81" width="462" height="767" rx="43" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_40_2)">
+<path id="Rectangle 73" d="M0 507H462V724C462 747.748 442.748 767 419 767H43C19.2518 767 0 747.748 0 724V507Z" fill="#D9D9D9"/>
+<path id="Rectangle 74" d="M0 507H462V43C462 19.2518 442.748 0 419 0H43C19.2518 0 0 19.2518 0 43V507Z" fill="#7A828A"/>
+<rect id="Rectangle 57" x="46.5" y="215.5" width="384" height="166" rx="34.5" fill="white" stroke="black" stroke-width="15"/>
+<line id="Line 39" x1="104.714" y1="335.228" x2="149.714" y2="260.228" stroke="black" stroke-width="3"/>
+<circle id="Ellipse 15" cx="144.5" cy="269.5" r="11.5" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<circle id="Ellipse 16" cx="127.5" cy="298.5" r="11.5" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<circle id="Ellipse 17" cx="109.5" cy="327.5" r="11.5" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<line id="Line 40" y1="-1.5" x2="87.4643" y2="-1.5" transform="matrix(0.514496 0.857493 0.857493 -0.514496 205 261)" stroke="black" stroke-width="3"/>
+<circle id="Ellipse 18" cx="12.5" cy="12.5" r="11.5" transform="matrix(1 0 0 -1 231 340)" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<circle id="Ellipse 19" cx="12.5" cy="12.5" r="11.5" transform="matrix(1 0 0 -1 214 311)" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<circle id="Ellipse 20" cx="12.5" cy="12.5" r="11.5" transform="matrix(1 0 0 -1 196 282)" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<line id="Line 42" x1="350.244" y1="273.839" x2="321.244" y2="316.839" stroke="black" stroke-width="3"/>
+<circle id="Ellipse 25" cx="319.5" cy="316.5" r="11.5" transform="rotate(180 319.5 316.5)" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<line id="Line 43" y1="-1.5" x2="51.8652" y2="-1.5" transform="matrix(-0.559142 -0.829072 -0.829072 0.559142 378 317)" stroke="black" stroke-width="3"/>
+<circle id="Ellipse 28" cx="12.5" cy="12.5" r="11.5" transform="matrix(-1 0 0 1 390 304)" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<circle id="Ellipse 26" cx="348.5" cy="273.5" r="11.5" transform="rotate(180 348.5 273.5)" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<rect id="Rectangle 59" x="266.104" y="763.415" width="69.4702" height="79.6552" rx="34.7351" transform="rotate(-45.7363 266.104 763.415)" fill="#7A828A" stroke="black" stroke-width="3"/>
+<rect id="Rectangle 58" x="158.5" y="609.5" width="182" height="208" rx="73.5" fill="#7A828A" stroke="black" stroke-width="3"/>
+<rect id="Rectangle 76" x="379.5" y="609.5" width="182" height="208" rx="73.5" fill="#7A828A" stroke="black" stroke-width="3"/>
+<rect id="Rectangle 79" x="40.1041" y="763.415" width="69.4702" height="79.6552" rx="34.7351" transform="rotate(-45.7363 40.1041 763.415)" fill="#7A828A" stroke="black" stroke-width="3"/>
+<path id="Rectangle 80" d="M-67.5 680C-67.5 641.064 -35.9361 609.5 3 609.5H41C81.5929 609.5 114.5 642.407 114.5 683V744C114.5 784.593 81.5929 817.5 41 817.5H6C-34.5929 817.5 -67.5 784.593 -67.5 744V680Z" fill="#7A828A" stroke="black" stroke-width="3"/>
+<rect id="Rectangle 77" x="266.104" y="763.415" width="69.4702" height="79.6552" rx="34.7351" transform="rotate(-45.7363 266.104 763.415)" fill="#7A828A" stroke="black" stroke-width="3"/>
+<rect id="Rectangle 78" x="158.5" y="609.5" width="182" height="208" rx="73.5" fill="#7A828A" stroke="black" stroke-width="3"/>
+<rect id="Rectangle 67" x="217.706" y="510" width="71" height="28" rx="3" transform="rotate(-90 217.706 510)" fill="#977D67"/>
+<rect id="Rectangle 68" x="251.706" y="510" width="71" height="28" rx="3" transform="rotate(-90 251.706 510)" fill="#977D67"/>
+<rect id="Rectangle 69" x="214.706" y="505" width="33" height="26" rx="13" fill="black"/>
+<rect id="Rectangle 70" x="248.706" y="505" width="33" height="26" rx="13" fill="black"/>
+<rect id="Rectangle 61" x="214.706" y="385" width="68" height="77" rx="24" fill="#8186D8"/>
+<rect id="Rectangle 71" x="279.706" y="474" width="62" height="22" transform="rotate(-180 279.706 474)" fill="#977D67"/>
+<path id="head" d="M248 371L248 359" stroke="#E6B998" stroke-width="41" stroke-linecap="round"/>
+<rect id="Rectangle 62" x="185" y="418.734" width="52.2929" height="23" rx="11.5" transform="rotate(-40.1723 185 418.734)" fill="#8186D8"/>
+<rect id="Rectangle 63" x="197.023" y="407" width="52.2929" height="23" rx="11.5" transform="rotate(21.1986 197.023 407)" fill="#8186D8"/>
+<rect id="Rectangle 64" x="255.706" y="408.198" width="52.2929" height="23" rx="11.5" transform="rotate(-30.0649 255.706 408.198)" fill="#8186D8"/>
+<rect id="Rectangle 65" x="282.706" y="399.076" width="52.2929" height="23" rx="11.5" transform="rotate(-59.5411 282.706 399.076)" fill="#8186D8"/>
+<path id="hand" d="M312 360.812L329.754 355" stroke="#E6B998" stroke-width="16" stroke-linecap="round"/>
+<circle id="Ellipse 29" cx="248.706" cy="398" r="3" fill="black"/>
+<circle id="Ellipse 30" cx="248.706" cy="409" r="3" fill="black"/>
+<circle id="Ellipse 31" cx="248.706" cy="420" r="3" fill="black"/>
+<circle id="Ellipse 32" cx="248.706" cy="431" r="3" fill="black"/>
+<circle id="Ellipse 33" cx="248.706" cy="442" r="3" fill="black"/>
+<g id="door">
+<rect id="panel" x="2.5" y="2.5" width="457" height="762" rx="40.5" fill="#997C64" stroke="#88715E" stroke-width="5"/>
+<ellipse id="knob" cx="406.5" cy="420.5" rx="24.5" ry="22.5" fill="black"/>
+</g>
+</g>
+</g>
+</svg>

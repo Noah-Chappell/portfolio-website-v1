@@ -1,0 +1,85 @@
+<svg width="494" height="543" viewBox="0 0 494 543" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    #right-hand {
+        transform-box: fill-box;
+        transition: 0.1s ease-in-out;
+        animation: hand-click ease-in-out 2s infinite alternate,
+                    hand-click ease-in-out 3s infinite alternate;
+    }
+    #right-hand:hover {
+        transform: scale(1.05);
+    }
+    @keyframes hand-click {
+        90% {
+            scale: 1;
+            translate: 0;
+        }
+        100% {
+            scale: 1.05;
+            translate: 0 -10%;
+        }
+    }
+</style>
+<g id="combined-startup-avatar" clip-path="url(#clip0_71_2)">
+<path id="Shadow" d="M390 511C390 528.673 302.696 543 195 543C87.3045 543 0 528.673 0 511C0 493.327 87.3045 479 195 479C302.696 479 390 493.327 390 511Z" fill="#0B0E0E"/>
+<g id="desk">
+<rect id="Rectangle 3" x="52" y="240.145" width="420.037" height="40.6143" rx="8" fill="black"/>
+<rect id="Rectangle 4" x="436.767" y="254.039" width="35.2703" height="260.786" rx="17.6351" fill="black"/>
+<rect id="Rectangle 5" x="52" y="254.039" width="35.2703" height="260.786" rx="17.6351" fill="black"/>
+<rect id="right-monitor" x="269.741" y="63.5" width="188.695" height="118.155" rx="23.5" fill="#D9D9D9" stroke="black" stroke-width="7"/>
+<rect id="laptop-monitor" x="380.896" y="140.453" width="109.604" height="78.6093" rx="23.5" fill="#D9D9D9" stroke="black" stroke-width="7"/>
+<rect id="left-monitor" x="72.0135" y="64.5688" width="188.695" height="118.155" rx="23.5" fill="#D9D9D9" stroke="black" stroke-width="7"/>
+<rect id="Rectangle 9" x="350.194" y="221.975" width="126.118" height="18.1695" rx="7" fill="black"/>
+<rect id="mouse" x="295.686" y="215.563" width="54.5086" height="24.5823" rx="12.2912" fill="black"/>
+<rect id="Rectangle 11" x="349.125" y="178.155" width="23.5135" height="61.9902" fill="black"/>
+<rect id="Rectangle 13" x="163.155" y="182.43" width="23.5135" height="61.9902" fill="black"/>
+<rect id="Rectangle 12" x="302.098" y="234.801" width="116.499" height="5.34398" rx="2.67199" fill="black"/>
+<rect id="Rectangle 14" x="116.128" y="234.801" width="116.499" height="5.34398" rx="2.67199" fill="black"/>
+</g>
+<g id="avatar">
+<g id="left-leg">
+<rect id="left-foot" x="225" y="439" width="74" height="49" rx="24.5" fill="black"/>
+<rect id="left-shin" x="219" y="285" width="57" height="189" rx="28.5" fill="#202352"/>
+<rect id="left-thigh" x="123" y="342" width="57" height="148" rx="28.5" transform="rotate(-90 123 342)" fill="#202352"/>
+</g>
+<g id="right-leg">
+<rect id="right-foot" x="252" y="454" width="74" height="49" rx="24.5" fill="black"/>
+<rect id="right-shin" x="246" y="301" width="57" height="189" rx="28.5" fill="#202352"/>
+<rect id="right-thigh" x="134" y="358" width="57" height="166" rx="28.5" transform="rotate(-90 134 358)" fill="#202352"/>
+</g>
+<g id="left-arm">
+<rect id="lefthand" x="220.23" y="207.37" width="51" height="38" rx="19" fill="#DCA47C"/>
+<rect id="left-forearm" x="163.23" y="216.37" width="81" height="34" rx="17" fill="#FC684E"/>
+<rect id="left-bicep" x="166.09" y="151" width="87.7488" height="34" rx="17" transform="rotate(70.7049 166.09 151)" fill="#FC684E"/>
+</g>
+<rect id="pelvis" x="123" y="357" width="81" height="81" rx="40.5" transform="rotate(-90 123 357)" fill="#202352"/>
+<rect id="body" x="123" y="123" width="129" height="205" rx="47" fill="#FC684E"/>
+<g id="right-arm">
+<rect id="right-hand" x="300" y="212" width="51" height="38" rx="19" fill="#DCA47C"/>
+<rect id="right-forearm" x="243" y="221" width="81" height="34" rx="17" fill="#FC684E"/>
+<rect id="right-bicep" x="245.86" y="155.63" width="87.7488" height="34" rx="17" transform="rotate(70.7049 245.86 155.63)" fill="#FC684E"/>
+</g>
+<g id="head">
+<rect id="face" x="143" y="42" width="82" height="98" rx="41" fill="#DCA47C"/>
+<path id="hair-back" d="M114 65.5607C115.38 74.7245 117.246 79.1748 127 83.0607C129.736 90.3205 132.399 93.2447 140.5 95.0607C146.725 95.2988 149.676 94.513 154 91.5607C162.784 91.5386 166.761 90.6822 171.5 87.0607C175.824 84.6031 177.156 81.8645 178 75.0607C182.504 80.4482 185.638 82.0384 192 83.0607C197.042 83.8388 200.138 83.0449 206 80.0607C208.759 85.1218 211.718 86.2549 218 87.0607C224.807 87.7983 227.136 86.4348 230.5 83.0607C239.925 84.392 243.91 82.2463 249.5 75.0607C252.875 66.2532 252.213 60.5964 246 49.0607C250.523 44.1356 250.406 40.5983 246 33.0607C243.752 27.5314 240.286 25.7133 230.5 24.5607C230.965 16.4624 229.221 12.4122 220.5 6.56068C212.071 5.38287 207.82 5.3622 203 9.06068C199.154 6.00105 196.786 5.27717 192 6.56068C188.45 0.862735 184.352 -0.303575 174.5 0.0606818C167.478 2.52513 164.319 5.30338 160.5 13.5607C155.047 9.78037 151.09 9.10443 140.5 13.5607C135.547 17.9644 134.024 21.3203 134.5 29.5607C130.501 31.0242 128.847 32.3174 127 35.5607C123.611 39.7658 122.789 42.7287 123.5 49.0607C117.392 53.0742 115.223 56.5891 114 65.5607Z" fill="#BA8C6C" stroke="#BA8C6C"/>
+</g>
+</g>
+<g id="chair">
+<rect id="Rectangle 1" x="53" y="147" width="139" height="192" rx="26" fill="#7A828A"/>
+<path id="Line 2" d="M161 396L161 467" stroke="black" stroke-width="25" stroke-linecap="round"/>
+<rect id="seat" x="76" y="350" width="193" height="69" rx="30" fill="#7A828A"/>
+<path id="Line 1" d="M99 299L99 390" stroke="black" stroke-width="25" stroke-linecap="round"/>
+<path id="Line 3" d="M101.566 459.079L223.925 490.469" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<path id="Line 4" d="M95.0428 480.199L220.94 469.855" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<circle id="Ellipse 1" cx="220.5" cy="502.5" r="12.5" fill="black"/>
+<circle id="Ellipse 2" cx="101.5" cy="492.5" r="12.5" fill="black"/>
+<circle id="Ellipse 3" cx="220.5" cy="479.5" r="12.5" fill="black"/>
+<circle id="Ellipse 4" cx="101.5" cy="470.5" r="12.5" fill="black"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_71_2">
+<rect width="494" height="543" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,93 @@
+#languages-section {
+    height: 91vh;
+    background: var(--color1);
+}
+#languages-section > p {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+
+}
+.shelf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#languages-section > .shelf-container {
+    height: 100%;
+    position: relative;
+    top: 15%;
+}
+
+.pot-logo-pair {
+    --float-path-dist: -130px; /* - is up */
+    --pot-logo-init-dist: 20px;
+    --animation-time: 1.5s;
+
+    display: grid;
+}
+/* LOGO */
+.pot-logo-pair > *:first-child {
+    height: 8vw;
+
+    display: block;
+    justify-self: center;
+
+    position: relative;
+    bottom: var(--pot-logo-init-dist);
+    animation: float ease-in-out var(--animation-time) infinite alternate;
+    transition: var(--default-transition);
+}
+.pot-logo-pair > *:first-child:hover {
+    scale: 1.5;
+}
+@keyframes float {
+to {
+    translate: 0 var(--float-path-dist);
+}
+}
+
+.pot-logo-container {
+    display: flex;
+    align-items: end;
+}
+.pot-logo-container > .pot-logo-pair:nth-child(2) > *:first-child {
+    bottom: calc(var(--pot-logo-init-dist) + -10px);
+    animation-duration: calc(var(--animation-time) + 0.05s);
+}
+.pot-logo-container > .pot-logo-pair:nth-child(3) > *:first-child {
+    bottom: calc(var(--pot-logo-init-dist) + 2px);
+    animation-duration: calc(var(--animation-time) + 0.03s);
+}
+.pot-logo-container > .pot-logo-pair:nth-child(4) > *:first-child {
+    bottom: calc(var(--pot-logo-init-dist) + 0px);
+    animation-duration: calc(var(--animation-time) + 0.07s);
+}
+.pot-logo-container > .pot-logo-pair:nth-child(5) > *:first-child {
+    bottom: calc(var(--pot-logo-init-dist) + -10px);
+    animation-duration: calc(var(--animation-time) + 0.03s);
+}
+
+/* POT */
+.pot-logo-container > .pot-logo-pair:nth-child(1) > *:last-child {
+    width: 10vw;
+}
+.pot-logo-container > .pot-logo-pair:nth-child(2) > *:last-child {
+    width: 19vw;
+    margin: 0 -2vw;
+}
+.pot-logo-container > .pot-logo-pair:nth-child(3) > *:last-child {
+    width: 14vw;
+}
+.pot-logo-container > .pot-logo-pair:nth-child(4) > *:last-child {
+    width: 14vw;
+}
+.pot-logo-container > .pot-logo-pair:nth-child(5) > *:last-child {
+    width: 12vw;
+    position: relative;
+    top: 14%;
+}
+
+.shelf-image {
+    width: 90%;
+}

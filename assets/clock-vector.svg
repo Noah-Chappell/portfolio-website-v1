@@ -1,0 +1,26 @@
+
+<svg class="vector-clock" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .clock-hand {
+      transform-box: fill-box;
+      transform-origin: 0% 100%;
+      animation: hand-rotation linear var(--vc-animation-time) infinite;
+    }
+    .minute-hand {
+      --vc-animation-time: 10s;
+    }
+    .hour-hand {
+      --vc-animation-time: 60s;
+    }
+    @keyframes hand-rotation {
+      to {
+        rotate: 360deg;
+      }
+    }
+  </style>
+  <g clip-path="url(#clip0_1_2)">
+    <circle cx="180" cy="180" r="164" fill="#D9D9D9" stroke="black" stroke-width="32"/>
+    <path class="clock-hand hour-hand" d="M183.666 92L180 180.247" stroke="black" stroke-width="15" stroke-linecap="round"/>
+    <path class="clock-hand minute-hand" d="M281.772 106L180 180.214" stroke="black" stroke-width="15" stroke-linecap="round"/>
+  </g>
+</svg>

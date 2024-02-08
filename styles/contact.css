@@ -1,0 +1,62 @@
+#contact-section {
+    height: 91vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background: var(--color1);
+    place-items: center;
+}
+#contact-section > *:first-child {
+    width: 25vw;
+}
+#contact-section > p {
+    font-size: 2.3rem;
+    margin: 0;
+    margin-left: -19%;
+
+}
+
+.contact-form {
+    width: 100%;
+
+    box-sizing: border-box;
+    margin: 3%;
+    margin-right: 10%;
+}
+.contact-form > p {
+    font-size: 4rem;
+    margin: 0;
+}
+.message-input {
+    height: 40vh;
+    width: 97%;
+    border: 0.4vw solid var(--color3);
+    border-radius: 20px;
+    margin-bottom: 2%;
+    font-size: 2.3rem;
+}
+
+.send-info {
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.email-input {
+    border: 0.4vw solid var(--color3);
+    border-radius: 20px;
+    font-size: 2.3rem;
+}
+.send-button {
+    background: var(--colorA);
+    border: none;
+    border-radius: 20px;
+    font-size: 2.3rem;
+
+    cursor: pointer;
+}
+.send-button:hover {
+    scale: 1.05;
+}
+.send-button:active {
+    opacity: 0.8;
+}

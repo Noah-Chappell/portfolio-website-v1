@@ -1,0 +1,48 @@
+/* semantic tags */
+
+
+:root, button {
+    --color0: black;
+    --color1: #0E1212;
+    --color2: #7A828A;
+    --color3: #D9D9D9;
+    --color4: white;
+    --colorA: #FC684E;
+    /* potential light mode? : brown? */
+
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    color: var(--color4);
+
+    --default-transition: all 0.15s ease-in-out;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background: var(--color1);
+    padding-left: 17.5%;
+}
+
+.section-spacer {
+    height: 70vh;
+}
+
+
+/* debug classes */
+
+/* #languages-section * {
+    outline: 2px dashed rgba(255, 166, 0, 0.658);
+    outline-offset: -2px;
+} */
+.space-holder {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.absolute {
+    position: absolute;
+}
+.force-scroll {
+    height: 200vh;
+}
